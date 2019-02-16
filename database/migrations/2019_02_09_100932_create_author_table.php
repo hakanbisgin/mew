@@ -18,7 +18,7 @@ class CreateAuthorTable extends Migration
             $table->string('name');
             $table->text('bio');
             $table->string('title');
-            $table->json('social');
+            $table->text('social');
             $table->timestamps();
         });
     }

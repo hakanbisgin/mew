@@ -167,6 +167,11 @@ return [
          */
 
         /*
+         * Third-party service providers
+         * */
+        Reliese\Coders\CodersServiceProvider::class,
+        Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,

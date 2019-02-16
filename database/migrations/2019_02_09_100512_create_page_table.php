@@ -18,7 +18,7 @@ class CreatePageTable extends Migration
             $table->text('content');
             $table->string('title');
             $table->string('description');
-            $table->json('keywords');
+            $table->text('keywords');
             $table->string('slug');
             $table->unsignedInteger('author_id');
             $table->timestamps();
